@@ -1,0 +1,1 @@
+{'$or':[{'basicInfo.barcode':{'$regex':'jeans', '$options':'i'}}, {'basicInfo.productName':{'$regex':"jeans", '$options':'i'}}, {'basicInfo.description':{'$regex':"h", '$options':'i'}}]}

@@ -1,0 +1,33 @@
+# Logs
+logs
+*.log
+
+
+# Compiled binary addons (https://nodejs.org/api/addons.html)
+build/Release
+
+# Generated Source
+##################
+/src/generated/*
+
+# Build Specific #
+################
+out/
+.idea
+*/gradle/*
+*/build/*
+.gradle/
+dist/*
+target/
+classes/
+lib_managed/
+src_managed/
+project/boot/
+project/plugins/project/
+
+# Intellij #
+############################
+*.iml
+*.ipr
+*.iws
+.idea/

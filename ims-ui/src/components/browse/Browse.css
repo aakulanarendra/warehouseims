@@ -1,0 +1,22 @@
+.media{
+    height: 80px;
+    /*padding-top: 56.25%;*/
+
+}
+
+.card{
+   width: 100%;
+    text-align: center;
+}
+
+.spanFullwidth{
+    width: 100%;
+}
+
+/*.MuiIconButton-edgeStart{*/
+/*    float: left;*/
+/*}*/
+
+/*.MuiIconButton-edgeEnd{*/
+/*    float: right;*/
+/*}*/

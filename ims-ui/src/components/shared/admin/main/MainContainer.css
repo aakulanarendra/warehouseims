@@ -1,0 +1,12 @@
+.pushable {
+    position: absolute !important;
+    width: 100%;
+}
+
+
+.container {
+    position: relative; /* needed for footer positioning*/
+    min-height: 100%; /* real browsers */
+    overflow: hidden;
+    /*margin-right: 200px;*/
+}

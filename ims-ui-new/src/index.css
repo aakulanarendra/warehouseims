@@ -1,0 +1,18 @@
+
+
+a {
+    text-decoration: none;
+}
+
+
+.invoiceContainer td{
+    border: none;
+}
+
+.invoiceContainer{
+    width: 30%;
+}
+
+.toaster {
+    margin-top: 40px;
+}

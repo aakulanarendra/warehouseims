@@ -1,0 +1,59 @@
+{
+  "name": "ims-ui",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@date-io/date-fns": "latest",
+    "@material-ui/core": "^4.2.0",
+    "@material-ui/icons": "^4.2.1",
+    "@material-ui/lab": "^4.0.0-alpha.22",
+    "@material-ui/pickers": "^3.2.2",
+    "autosuggest-highlight": "^3.1.1",
+    "axios": "^0.19.0",
+    "create-reactjs-component": "^1.0.7",
+    "lodash": "latest",
+    "material-icons": "^0.3.1",
+    "material-table": "^1.40.1",
+    "material-ui-search-bar": "^0.4.2",
+    "material-ui-search-bar-enhanced": "^0.5.3",
+
+    "node-sass": "^4.12.0",
+    "react": "^16.8.6",
+    "react-autosuggest": "^9.4.3",
+    "react-dom": "^16.8.6",
+    "react-material-ui-form-validator": "^2.0.9",
+    "react-moment": "^0.9.2",
+    "react-redux": "^7.1.0",
+    "moment": "^2.24.0",
+    "react-router-dom": "^5.0.1",
+    "react-scripts": "3.0.1",
+    "react-select": "^3.0.4",
+    "react-toastify": "^5.3.1",
+    "redux": "^4.0.4",
+    "redux-form": "^8.2.5",
+    "redux-form-material-ui": "^5.0.0-beta.3"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "proxy": "http://35.196.17.183:8080/api",
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {}
+}

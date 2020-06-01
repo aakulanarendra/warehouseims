@@ -1,0 +1,24 @@
+version: '3' 
+services:   
+  frontend:     
+    build: ./ims-ui-new/
+    restart: always
+    ports:       
+      - "80:3000"     
+    networks:      
+      - imsnetwork   
+  backend:    
+    build: ./ims-backend/
+    restart: always
+    ports:
+      - "8080:8080"
+    networks:      
+      - imsnetwork   
+  db:     
+    image: mongo   
+    restart: always
+    networks:       
+      - imsnetwork 
+networks:   
+  imsnetwork:    
+    driver: bridge
